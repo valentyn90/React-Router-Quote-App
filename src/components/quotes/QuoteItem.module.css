@@ -1,5 +1,5 @@
 .item {
-  margin: 1rem 0;
+  margin: 1rem auto;
   padding: 1rem;
   display: flex;
   justify-content: space-between;
@@ -7,6 +7,7 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   border-radius: 6px;
   background-color: #82a7ee;
+  max-width: 50rem;
 }
 
 .item:last-of-type {

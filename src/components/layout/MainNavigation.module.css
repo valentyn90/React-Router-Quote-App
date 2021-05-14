@@ -9,7 +9,7 @@
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: clamp(1.4rem, 2.5vw, 2.4rem);
   color: white;
 }
 
@@ -22,7 +22,7 @@
 
 .nav li {
   margin-left: 1.5rem;
-  font-size: 1.25rem;
+  font-size: clamp(1rem, 2.5vw, 1.4rem);
 }
 
 .nav a {

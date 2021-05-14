@@ -6,6 +6,8 @@
   margin: 3rem auto;
   width: 90%;
   max-width: 40rem;
+  border: 1px solid #96b6ee;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px 12px 2px rgba(0, 0, 0, 0.2);
 }
 
 .quote p {
@@ -18,5 +20,5 @@
   font-style: italic;
   font-size: 1.5rem;
   text-align: right;
-  color: #82a7ee;
+  color: #96b6ee;
 }

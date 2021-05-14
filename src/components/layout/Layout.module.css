@@ -1,5 +1,12 @@
 .main {
-  margin: 3rem auto;
-  width: 90%;
-  max-width: 40rem;
+  margin: auto;
+  padding: 3rem;
+  width: auto;
+  min-height: 100vh;
+  background: rgb(57, 115, 224);
+  background: linear-gradient(
+    0deg,
+    rgba(57, 115, 224, 1) 0%,
+    rgba(6, 20, 47, 1) 100%
+  );
 }

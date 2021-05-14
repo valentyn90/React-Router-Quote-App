@@ -37,6 +37,7 @@
   display: block;
   width: 100%;
   font-size: 1.25rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px 12px 2px rgba(0, 0, 0, 0.2);
 }
 
 .control textarea:focus {
@@ -47,4 +48,5 @@
 .actions button {
   font-size: 0.8rem;
   font-weight: 300;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px 12px 2px rgba(0, 0, 0, 0.2);
 }
