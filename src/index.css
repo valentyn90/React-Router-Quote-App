@@ -37,6 +37,17 @@ body {
     rgba(57, 115, 224, 1) 0%,
     rgba(6, 20, 47, 1) 100%
   );
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 body::-webkit-scrollbar {
