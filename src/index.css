@@ -4,6 +4,11 @@
 *::after {
   box-sizing: border-box;
 }
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #8b92a5 black;
+}
+
 /* Set core root defaults */
 html:focus-within {
   scroll-behavior: smooth;
@@ -28,9 +33,10 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   min-height: 100vh;
-  overflow: hidden;
+  overflow: auto;
   font-weight: 300;
   margin: 0;
+
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -56,9 +62,7 @@ body::-webkit-scrollbar-thumb:hover {
   background: #b5ccf6;
 }
 body::-webkit-scrollbar-track {
-  background: #ffffff;
-  border-radius: 10px;
-  box-shadow: inset 7px 10px 12px #f0f0f0;
+  background: #091223;
 }
 @media screen and (min-width: 1200px) {
   body {
