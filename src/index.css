@@ -36,7 +36,6 @@ body {
   overflow: auto;
   font-weight: 300;
   margin: 0;
-
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
