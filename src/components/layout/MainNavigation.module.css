@@ -8,9 +8,13 @@
   background-color: #040d1e;
 }
 
-.logo {
+.logo,
+.quote {
   font-size: clamp(1.4rem, 2.5vw, 2.4rem);
-  color: white;
+  color: #c6d7f8;
+}
+.quote {
+  font-size: 3rem;
 }
 
 .nav ul {
