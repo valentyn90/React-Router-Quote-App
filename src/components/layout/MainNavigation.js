@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import { ImQuotesLeft, ImQuotesRight } from 'react-icons/im';
+import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa';
 import classes from './MainNavigation.module.css';
 
 const MainNavigation = () => {
@@ -7,11 +7,11 @@ const MainNavigation = () => {
     <header className={classes.header}>
       <div className={classes.logo}>
         <span className={classes.quote}>
-          <ImQuotesLeft />
+          <FaQuoteLeft />
         </span>{' '}
         Great Quotes{' '}
         <span className={classes.quote}>
-          <ImQuotesRight />
+          <FaQuoteRight />
         </span>
       </div>
 
