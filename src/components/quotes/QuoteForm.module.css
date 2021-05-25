@@ -48,6 +48,11 @@
 .actions button {
   font-weight: 200;
   font-size: 0.8rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+.actions button:active {
+  transform: scale(0.9);
+  box-shadow: inset 0 0 10px #fffff0;
 }
 .actions button:focus {
   outline: none;

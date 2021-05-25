@@ -23,11 +23,18 @@
   font-weight: 500;
   font-size: 0.8rem;
   text-transform: uppercase;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
 }
 
 .sorting button:hover {
   background-color: #82a7ee;
   color: #fff;
+  border: 1px solid #fffff0;
+}
+
+.sorting button:active {
+  transform: scale(0.9);
+  box-shadow: inset 0 0 10px #fffff0;
 }
 
 .sorting button:focus {
