@@ -15,7 +15,7 @@
 .sorting button {
   font: inherit;
   color: #081c41;
-  border: 1px solid #081c41;
+  border: 1px solid #fffff7;
   background-color: #c6d7f8;
   border-radius: 4px;
   padding: 0.5rem 1.5rem;
@@ -27,7 +27,7 @@
 }
 
 .sorting button:hover {
-  background-color: #82a7ee;
+  background-color: #091c41;
   color: #fff;
   border: 1px solid #fffff0;
 }

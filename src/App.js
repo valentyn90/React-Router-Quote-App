@@ -17,8 +17,7 @@ function App() {
       <Suspense
         fallback={
           <div className='centered'>
-            {' '}
-            <LoadingSpinner />{' '}
+            <LoadingSpinner />
           </div>
         }
       >
