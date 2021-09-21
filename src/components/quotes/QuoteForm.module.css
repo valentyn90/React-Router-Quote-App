@@ -47,8 +47,12 @@
 
 .actions button {
   font-weight: 200;
+  letter-spacing: 2px;
   font-size: 0.8rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+.actions button:hover {
+  transition: all 0.3s ease;
 }
 .actions button:active {
   transform: scale(0.9);

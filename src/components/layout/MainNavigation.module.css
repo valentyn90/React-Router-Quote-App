@@ -31,16 +31,17 @@
   font-size: clamp(1rem, 2.5vw, 1.4rem);
 }
 
-.nav a {
+/* .nav a {
   text-decoration: none;
-  color: #82a7ee;
-}
+  color: #fff;
+  transition: all 0.3s ease;
+} */
 
-.nav a:hover,
+/* .nav a:hover,
 .nav a:active,
 .nav a.active {
-  color: #e6fcfc;
-}
+  
+} */
 .active {
   width: clamp(10.5rem, 16vw, 11.5rem);
   text-decoration: none;
@@ -56,10 +57,12 @@
   border-radius: 0.3rem;
   font-weight: 300;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  transition: all 0.3s ease;
   font-size: clamp(0.5rem, 0.8vw, 0.7rem);
 }
 .active:hover {
-  background-color: transparent;
+  background-color: #b5ccf6;
+  border-color: #091c41;
   color: #091c41;
   font-weight: 400;
 }

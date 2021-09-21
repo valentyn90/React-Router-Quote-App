@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 
 import QuoteList from '../components/quotes/QuoteList';
 import LoadingSpinner from '../components/UI/LoadingSpinner';
@@ -7,10 +7,12 @@ import useHttp from '../hooks/use-http';
 import { getAllQuotes } from '../lib/api';
 
 const AllQuotes = () => {
-  const { sendRequest, status, data: loadedQuotes, error } = useHttp(
-    getAllQuotes,
-    true
-  );
+  const {
+    sendRequest,
+    status,
+    data: loadedQuotes,
+    error,
+  } = useHttp(getAllQuotes, true);
 
   useEffect(() => {
     sendRequest();

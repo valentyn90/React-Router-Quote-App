@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400&display=swap');
 *,
 *::before,
 *::after {
@@ -105,15 +105,17 @@ body::-webkit-scrollbar-track {
   overflow: hidden;
   position: relative;
   border-radius: 0.3rem;
-  font-weight: 300;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 0.3rem;
+  font-weight: 200;
+  transition: all 0.3s ease;
   font-size: clamp(0.5rem, 0.8vw, 0.7rem);
 }
 .btn:hover {
   background-color: #b5ccf6;
   border-color: #091c41;
   color: #091c41;
-  font-weight: 500;
+  font-weight: 400;
 }
 .btn:active {
   transform: scale(0.9);
@@ -130,8 +132,10 @@ body::-webkit-scrollbar-track {
   padding: 0.75rem 1.5rem;
   border-radius: 0.3rem;
   text-transform: uppercase;
-  font-weight: 300;
+  letter-spacing: 2px;
+  font-weight: 200;
   font-size: 0.8rem;
+  transition: all 0.3s ease;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
 }
 .btn--flat:hover {

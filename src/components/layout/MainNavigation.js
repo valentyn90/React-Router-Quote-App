@@ -8,8 +8,8 @@ const MainNavigation = () => {
       <div className={classes.logo}>
         <span className={classes.quote}>
           <FaQuoteLeft />
-        </span>{' '}
-        Great Quotes{' '}
+        </span>
+        Great Quotes
         <span className={classes.quote}>
           <FaQuoteRight />
         </span>
@@ -20,12 +20,12 @@ const MainNavigation = () => {
           <li>
             <NavLink to='/quotes' className={classes.active}>
               All Quotes
-            </NavLink>{' '}
+            </NavLink>
           </li>
           <li>
             <NavLink to='/new-quote' className={classes.active}>
               Add a Quote
-            </NavLink>{' '}
+            </NavLink>
           </li>
         </ul>
       </nav>
