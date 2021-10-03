@@ -42,3 +42,28 @@
   text-align: right;
   margin-right: 3rem;
 }
+@media screen and (max-width: 650px) {
+  .item {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .item figure {
+    width: 100%;
+  }
+
+  .item blockquote {
+    font-size: 1.2rem;
+  }
+
+  .item p {
+    font-size: 1rem;
+  }
+
+  .item figcaption {
+    font-size: 0.7rem;
+    font-weight: 300;
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+}

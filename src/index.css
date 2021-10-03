@@ -92,7 +92,6 @@ body::-webkit-scrollbar-track {
 }
 
 .btn {
-  width: clamp(10.5rem, 16vw, 11.5rem);
   text-decoration: none;
   padding: 0.75rem 1.5rem;
   cursor: pointer;
@@ -147,4 +146,11 @@ body::-webkit-scrollbar-track {
 .btn--flat:focus,
 btn:focus {
   outline: none;
+}
+
+@media screen and (max-width: 650px) {
+  .btn {
+    font-size: clamp(0.5rem, 0.8vw, 0.7rem);
+    padding: 0.5rem 0.6rem;
+  }
 }
