@@ -64,7 +64,6 @@
   background-color: #b5ccf6;
   border-color: #091c41;
   color: #091c41;
-  font-weight: 400;
 }
 .active:active {
   transform: scale(0.9);
