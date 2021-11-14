@@ -31,18 +31,19 @@
 .control textarea {
   font: inherit;
   padding: 0.35rem;
-  border-radius: 4px;
-  background-color: #f0f0f0;
+  border-radius: 0.4rem;
+  background-color: #c6d7f8;
   border: 1px solid #c6d7f8;
   display: block;
   width: 100%;
   font-size: 1.25rem;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px 12px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
 
 .control textarea:focus {
   background-color: #c6d7f8;
-  outline-color: #82a7ee;
+  background-color: #f0f0f0;
+  outline: none;
 }
 
 .actions button {

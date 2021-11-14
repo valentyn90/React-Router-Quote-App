@@ -27,7 +27,7 @@
 .control textarea {
   font: inherit;
   padding: 0.35rem;
-  border-radius: 4px;
+  border-radius: 0.4rem;
   background-color: #e9f0fc;
   border: 1px solid #123d85;
   display: block;
