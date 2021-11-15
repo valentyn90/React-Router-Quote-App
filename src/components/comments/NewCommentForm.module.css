@@ -41,7 +41,6 @@
 }
 
 .control textarea:focus {
-  background-color: #c6d7f8;
   background-color: #f0f0f0;
   outline: none;
 }
