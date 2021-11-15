@@ -56,7 +56,7 @@
 }
 .actions button:active {
   transform: scale(0.9);
-  box-shadow: inset 0 0 10px #fffff0;
+  box-shadow: inset 0 0 10px #000;
 }
 .actions button:focus {
   outline: none;
